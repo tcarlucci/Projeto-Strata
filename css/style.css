@@ -1,0 +1,348 @@
+/* FONTE e COR Geral*/
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #787878;
+    line-height: 1.7;
+    /* ESPAÇO ENTRE LINHAS */
+}
+
+/* TODOS OS LINKS */
+a {
+    transition: color 0.3s linear, border 0.3s linear;
+    /* TRANSIÇÃO DA COR, DA BORDA */
+    text-decoration: none;
+    /* REMOVER TODAS AS CARACTERÍSTICAS */
+    border-bottom: 1px dotted;
+    /* COLOCAR LINHA PONTILHADA EMBAIXO */
+    color: #49bf9d;
+    /* color: #49bf9d; */
+}
+
+/* AO PASSAR O MOUSE - TODOS OS LINKS */
+a:hover {
+    border-bottom: transparent;
+}
+
+/* TODOS OS PARÁGRAFOS */
+p {
+    margin: 0 0 2em;
+    /* MARGEM BAIXO DE ACORDO COM A FONTE - 'EM' SEMPRE RELATIVO A FONT SIZE */
+}
+
+/* TODOS OS Hs */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #787878;
+    font-weight: normal;
+    margin: 1em 0;
+    /* MARGEM EM CIMA E EMBAIXO DE ACORDO COM A FONTE - 'EM' SEMPRE RELATIVO A FONT SIZE */
+    /* border: solid 1px rgb(255, 13, 0); */
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+/* SUBSCRITO E SOBRESCRITO  */
+sub,
+sup {
+    font-size: 12px;
+}
+
+/* QUOTE BLOCKQUOTE */
+blockquote {
+    border-left: 5px solid #efefef;
+    margin: 2em 0;
+    padding: 0.5em 0 0.5em 1.5em;
+}
+
+/* QUOTE Q */
+q {
+    border-left: 5px solid #efefef;
+    margin: 2em 0;
+    padding: 0.5em 0 0.2em 1.5em;
+    /* border: solid 2px red; */
+    display: block;
+}
+
+/* CODE */
+code {
+    font-family: "Courier New", Courier, monospace;
+    /* FONTE USADA NORMALMENTE PARA CODIGOS */
+    background: #f7f7f7;
+    border-radius: 0.35em;
+    border: 2px solid #efefef;
+    font-size: 0.9em;
+    padding: 0.25em 0.65em;
+    color: #929292;
+}
+
+/* CODE */
+pre code {
+    font-family: "Courier New", Courier, monospace;
+    /* FONTE USADA NORMALMENTE PARA CODIGOS */
+    display: block;
+    color: #929292;
+}
+
+/* LISTA ORDENADA E NÃO ORDENADA */
+ul,
+ol {
+    margin: 0;
+    /* ZERAR O ESPAÇAMENTO */
+    padding: 0 0 0 1.1em;
+    /* ZERAR O ESPAÇAMENTO */
+    /* list-style-position: inside; /* ALINHA OS BULLETS COM O TEXTO */
+}
+
+li {
+    padding-left: 0.5em;
+    /* ESPAÇO IGUAL EM TODAS AS LI */
+}
+
+/* UL LISTA ALTERNADA */
+.ulAlternate {
+    list-style-type: none;
+    padding-left: 0;
+    /* ZERAR PARA ALINHAR AS UL */
+    padding-right: 20%;
+    /* border: #49bf9d 1px solid; */
+}
+
+/* LI DA LISTA ALTERNADA */
+.ulAlternate li {
+    border-bottom: 2px solid #d8d8d8;
+    /* RETIRAR A BORDA DA ULTIMA LI */
+    padding-left: 0;
+    /* ZERAR PAR ALINHAR AS LI */
+}
+
+/* RETIRAR A BORDA DA ULTIMA LI */
+.ulAlternate li:last-child {
+    border-bottom: none;
+    /* REMOVER BORDA NA LI */
+}
+
+/* ICONES */
+.ulIcons {
+    list-style-type: none;
+    /* REMOVE AS BOLINHAS DAS LISTAS */
+    padding-left: 0;
+    /* border: 1px solid red; */
+    /* letter-spacing: 5px; ESPAÇO ENTE LETRAS */
+}
+
+.ulIcons li {
+    display: inline-block;
+    /* DEIXAR OS ICONES EM LINHA COM CARACTERÍSTICAS DE BLOCO*/
+    color: #49bf9d;
+    font-size: 1.3em;
+    /* border: 1px solid rgb(0, 38, 255); */
+}
+
+/* *ENTRE EM CONTATO */
+.colFather{
+    border: 2px solid red;
+}
+
+.colChield1, .colChield2{
+    border: 2px solid rgb(34, 255, 0);
+}
+
+.entreContatoNome, .entreContatoEmail, .entreContatoMsg{
+    border: 2px solid blue;
+}
+
+
+
+
+
+/* FORMATAÇÃO DO BOTÃO PADRÃO */
+.buttonDefault {
+    background-color: #49bf9d;
+    /* COR DE FUNDO */
+    border: 2px solid #49bf9d;
+    /* BORDA */
+    color: white;
+    /* COR DA FONTE */
+    margin-left: 8px;
+    padding: 0.85em 3.5em;
+    /* ESPAÇAMENTO */
+    border-radius: 5px;
+    /* CANTO ARREDONDADO */
+    font-size: 0.8em;
+    /* TAMANHO DA FONTE */
+}
+
+/* FORMATAÇÃO DO BOTÃO STROKE */
+.buttonDefaultStroke {
+    background-color: white;
+    /* COR DE FUNDO */
+    color: inherit;
+    /* HERDAR CARACTERÍSTICA DE OBJETO PAI */
+    border-color: #efefef;
+    /* COR DA BORDA */
+}
+
+/* FORMATAÇÃO DO BOTÃO PEQUENO */
+.buttonSmall {
+    font-size: 0.6em;
+}
+
+/* FORMATAÇÃO DO BOTÃO FULL */
+.buttonFull {
+    display: block;
+    width: 60%;
+    text-align: center;
+}
+
+/* FORMATAÇÃO DA TABELA */
+.table {
+    width: 100%;
+    /* OCUPAR 100% */
+    margin: 0 0 2em 0;
+    border-collapse: collapse;
+    /* REMOVER TRAÇOS ENTRE AS CÉLULAS */
+}
+
+/* COLUNAS TABELA */
+.table td {
+    padding: 0.75em;
+}
+
+/* CABEÇALHO TABELA */
+.table th {
+    text-align: left;
+    padding: 0.75em;
+}
+
+/* TABELA -> CORPO -> LINHA -> COLUNA */
+table tbody tr td {
+    border-bottom: 1px solid #787878;
+}
+
+/* TABELA -> CORPO -> LINHA: NUMEROS IMPARES  */
+.table tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+/* -> TABLE -> TBODY -> A ULTIMA TR (LINHA) -> TDs (COLUNA) QUE ESTÃO DENTRO */
+.table tbody tr:first-child td {
+    border-top: 2px solid #787878;
+    
+}
+
+/* -> TABLE -> TBODY -> A PRIMEIRA TR (LINHA) -> TDs (COLUNA) QUE ESTÃO DENTRO */
+.table tbody tr:last-child td {
+    border-bottom: 2px solid #787878;
+
+}
+
+/* TABELA -> CORPO -> COLUNA - colocar borda */
+.tableAlternate tbody td, .tableAlternate tbody tr:first-child td, .tableAlternate tbody tr:last-child td{
+    border: 1px solid #ddd;
+}
+
+
+/* CABEÇALHO - FIXO LADO ESQUERDO */
+.mainHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 124px 54px 72px;
+    /* padding soma a margin - usar box-sizing: border-box para não passar  */
+    box-sizing: border-box;
+    background-image: url(../images/overlay.png), url(../images/bg.jpg);
+    /* IMAGENS DE FUNDO */
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+    /* ALINHAMENTO */
+}
+
+/* CABEÇALHO - H1 - Título */
+.mainHeaderTitle {
+    font-size: 20px;
+    /* TAMANHO DA FONTE */
+    line-height: 1.5;
+    /* ESPAÇO ENTRE LINHAS - ALTURA DA LINHA */
+    font-weight: normal;
+    /* PESO DA FONTE */
+    color: rgba(255, 255, 255, 0.5);
+    /* COR FONTE */
+}
+
+/* NOME THIAGO */
+.mainHeaderTitle strong {
+    font-weight: normal;
+    color: white;
+}
+
+/* CABEÇALHO - LINK TEXTO */
+.mainHeaderLink {
+    color: inherit;
+    /* inherit - HERDA A COR DO OBEJETO PAI  */
+}
+
+/* CABEÇALHO - LINK TEXTO - PASSAR MOUSE */
+.mainHeaderLink:hover {
+    color: #49bf9d;
+    /* COR */
+}
+
+/* CONTEÚDO PRINCIPAL - LADO DIREITO */
+.mainContent {
+    width: 65%;
+    margin: 0 0 0 35%;
+    padding: 124px 54px 72px;
+    /* padding soma a margin - usar box-sizing: border-box para não passar  */
+    box-sizing: border-box;
+}
+
+.row h5 {
+    font-weight: 600;
+    /* BOLD NOS TÍTULOS DAS COLUNAS 1 E 2 */
+}
+
+/* COLUNA 1 - LADO ESQUERDO */
+.col1 {
+    display: inline-block;
+    /* DEIXAR OS ICONES EM LINHA COM CARACTERÍSTICAS DE BLOCO*/
+    width: 49%;
+    /* OCUPAR % DE ESPAÇO NA TELA */
+}
+
+/* COLUNA 2 - LADO DIREITO */
+.col2 {
+    vertical-align: top;
+    display: inline-block;
+    /* DEIXAR OS ICONES EM LINHA COM CARACTERÍSTICAS DE BLOCO*/
+    width: 49%;
+    /* OCUPAR % DE ESPAÇO NA TELA */
+}
