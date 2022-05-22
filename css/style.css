@@ -174,7 +174,7 @@ li {
 }
 
 .entreContatoNome, .entreContatoEmail, .entreContatoMsg{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 
