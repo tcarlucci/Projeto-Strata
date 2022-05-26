@@ -1,3 +1,7 @@
-Meu primeiro sistema no GiT, versionado.
+Primeiro sistema no GiT, versionado.
+Versão 0.1 
+
 
 arquivos alterado no branch master
+
+Nova linha adiconada
